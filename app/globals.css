@@ -13,7 +13,6 @@
     font-size: 18px;
   }
 
-  /* Ajuste no menu */
   .nav {
     display: none;
     width: 100%;
@@ -25,7 +24,6 @@
     text-align: center;
   }
 
-  /* Abre o menu quando estiver ativado */
   .nav.open {
     display: block;
   }
@@ -38,7 +36,6 @@
     margin: 15px 0;
   }
 
-  /* Botão do menu */
   .menu-button {
     display: flex;
     flex-direction: column;
@@ -68,7 +65,6 @@
     width: auto;
   }
 
-  /* Ocultar o botão de menu em telas maiores */
   .menu-button {
     display: none;
   }
