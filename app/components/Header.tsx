@@ -24,7 +24,7 @@ export default function Header() {
         </nav>
 
         <motion.a
-  href="https://wa.me/1234567890"
+  href="https://wa.me/89994546210"
   target="_blank"
   rel="noopener noreferrer"
   className="fixed bottom-6 right-6 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors"
