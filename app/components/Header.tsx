@@ -41,6 +41,7 @@ export default function Header() {
         </nav>
 
         <motion.a
+<<<<<<< HEAD
           href="https://wa.me/+5589994546210"
           target="_blank"
           rel="noopener noreferrer"
@@ -56,6 +57,24 @@ export default function Header() {
             className="h-12 w-12"
           />
         </motion.a>
+=======
+  href="https://wa.me/+5589994546210"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="fixed bottom-6 right-6 text-white p-4 rounded-full shadow-lg hover:bg-green-600 transition-colors"
+  whileHover={{ scale: 1.1 }}
+  whileTap={{ scale: 0.9 }}
+>
+  <Image
+    src="https://www.svgrepo.com/show/176768/whatsapp-social-media.svg" // URL da logo do WhatsApp
+    alt="WhatsApp"
+    width={48} // Largura da imagem
+    height={48} // Altura da imagem
+    className="h-12 w-12" // Aumentando o tamanho da imagem
+  />
+</motion.a>
+
+>>>>>>> 7243d2d81b577c12e3643dc0e210377ff58e5305
       </div>
     </header>
   );
