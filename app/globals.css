@@ -8,6 +8,72 @@
   --background-end-rgb: 20, 20, 20;
 }
 
+@media screen and (max-width: 768px) {
+  .header {
+    font-size: 18px;
+  }
+
+  /* Ajuste no menu */
+  .nav {
+    display: none;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Abre o menu quando estiver ativado */
+  .nav.open {
+    display: block;
+  }
+
+  .nav ul {
+    display: block;
+  }
+
+  .nav ul li {
+    margin: 15px 0;
+  }
+
+  /* Botão do menu */
+  .menu-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 20px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .menu-button .bar {
+    width: 30px;
+    height: 4px;
+    background-color: white;
+    border-radius: 2px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .header {
+    font-size: 24px;
+  }
+
+  .nav {
+    display: flex;
+    width: auto;
+  }
+
+  /* Ocultar o botão de menu em telas maiores */
+  .menu-button {
+    display: none;
+  }
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
