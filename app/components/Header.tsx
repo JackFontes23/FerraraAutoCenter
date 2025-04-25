@@ -38,6 +38,23 @@ export default function Header() {
           <Link href="#sobre" className="text-white hover:text-red-600 transition-colors">
             Sobre nós
           </Link>
+          <motion.a
+            href="https://www.instagram.com/ferrara.autocenter/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-white hover:text-red-600 transition-colors text-right bg-clip-padding"
+
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.9 }}
+          >
+            <Image
+              src="https://www.svgrepo.com/show/303145/instagram-2-1-logo.svg" // URL da logo do WhatsApp
+              alt="Instagram"
+              width={32}
+              height={32}
+              
+            />
+</motion.a>
         </nav>
 
 <motion.a
