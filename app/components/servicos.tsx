@@ -16,7 +16,7 @@ const services = [
   },
   {
     name: 'Troca de Para-brisa',
-    image: 'https://images.pexels.com/photos/3806249/pexels-photo-3806249.jpeg'
+    image: 'https://www.minutoseguros.com.br/blog/wp-content/uploads/2018/12/para-brisa-trincado-conclusao.jpg'
   },
   {
     name: 'Lavagem',
