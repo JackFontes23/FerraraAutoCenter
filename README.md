@@ -4,8 +4,7 @@ Este é o site oficial da oficina Ferrara Auto Center, desenvolvido com Next.js.
 O projeto foi iniciado com create-next-app.
 
 🔥 Visite o nosso repositório
-Acesse: git@github.com:JackFontes23/FerraraAutoCenter.git
-
+Acesse: https://github.com/JackFontes23/FerraraAutoCenter.git
 🚀 Tecnologias Utilizadas
 Next.js 14
 
@@ -53,13 +52,6 @@ public/: Imagens e outros arquivos públicos.
 styles/: Arquivos de estilo globais.
 
 components/: Componentes reutilizáveis (se houver).
-
-📚 Aprendizado e Recursos
-Para aprender mais sobre Next.js:
-
-Documentação do Next.js
-
-Tutorial Interativo de Next.js
 
 📦 Deploy
 O projeto pode ser facilmente hospedado utilizando:
